@@ -1,0 +1,19 @@
+{
+  "liveCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/css"
+    }
+  ],
+  "liveCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "liveCompile.settings.generateMap": true,
+  "liveServer.settings.port": 1236,
+  "liveCompile.settings.autoprefix": null,
+  "editor.fontSize": 20
+}

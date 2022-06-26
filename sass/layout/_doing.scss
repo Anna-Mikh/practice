@@ -1,0 +1,34 @@
+
+@media screen and (max-width: 1199px) {
+    .section.section--no-padding-top {
+            display: none;
+    }
+}
+
+
+.doing {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.doing__position {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.doing__text {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.2;
+    font-size: 16px;
+    font-weight: 700;
+}
